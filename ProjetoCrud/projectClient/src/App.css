@@ -1,0 +1,84 @@
+body{
+  background-color: rgb(248, 221, 194);
+}
+
+h1{
+  font-size: 70px;
+  margin-left: 6em;
+  color: rgb(60, 130, 79);
+}
+
+#titulo-produto{
+  font-size: 40px;
+  margin-left: 17em;
+}
+
+input{
+  width: 90em;
+  margin-left: 20em;
+  height: 30px;
+}
+
+.adc{
+  margin-left: 59em;
+  background-color: rgb(60, 130, 79);
+  border: 0;
+}
+
+h2{
+  margin-left: 12em;
+  color: rgb(32, 119, 55);
+}
+
+button{
+  background-color: rgb(32, 119, 55);
+  border: 0;
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+  width: 95px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 9px;
+  margin-top: 9px;
+}
+
+.button2{
+  background-color: rgb(32, 119, 55);
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 9px;
+}
+
+.mostra_itens{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.lista_itens{
+  margin-bottom: 2vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+#filtros{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.btns{
+  width: 10vw;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
